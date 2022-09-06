@@ -1,61 +1,62 @@
  .корінь {
-    --primary-text-color :  # 303030 ;
-    --secondary-text-color :  # fff ;
-    --tetriary-text-color :  # 555 ;
-    --primary-title-color :  rgba ( 157 ,  164 ,  189 ,  0,6 );
-    --description-text :  # 9da4bd ;
-    --accent-color :  # ff6c00 ;
+    --primary-text-color: #303030;
+    --secondary-text-color:  #fff;
+    --tetriary-text-color:  #555;
+    --primary-title-color:  rgba ( 157 ,  164 ,  189 ,  0,6 );
+    --description-text:  #9da4bd;
+    --accent-color:  #ff6c00;
   }
   
   .тіло {
-    сімейство шрифтів :  "Монсеррат", sans-serif;
-    font-weight :  400 ;
-    колір фону :  # c4c0c0 ;
+    сімейство шрифтів:  "Montserrat", sans-serif;
+    font-weight:  400;
+    колір фону:  #c4c0c0;
   }
   
   /* Головний розділ перед заголовком */
   .попередній заголовок {
-    font-weight :  500 ;
-    розмір шрифту :  11 пікселів ;
-    висота лінії :  1,4 ;
-    перетворення тексту : верхній регістр;
+    font-weight:  500;
+    розмір шрифту:  11 пікселів;
+    висота лінії:  1,4;
+    перетворення тексту: верхній регістр;
     колір :  var ( --primary-text-color );
   }
   
   /* Назва основного розділу */
   .назва {
-    сімейство шрифтів :  "Roboto", sans-serif;
-    вага шрифту :  700 ;
-    розмір шрифту :  42 px ;
-    висота лінії :  1,2 ;
-    міжлітерний інтервал :  0,05 em ;
-    колір :  var ( --primary-text-color );
+    font-family:  "Roboto", sans-serif;
+    font-weight:  700;
+    font-size:  42 px;
+    висота лінії:  1,2;
+    letter-spacing:  0,05 em ;
+    колір:  var ( --primary-text-color );
   }
   
   /* Список стилів */
   .список {
-    стиль списку : немає;
+    стиль списку: немає;
   }
   
   /* Стилі посилань */
   .посилання {
-    text-decoration : немає;
+    text-decoration: немає;
   }
   
   /* Стилі кнопок */
   .btn {
-    font-weight :  600 ;
-    розмір шрифту :  12 пікселів ;
-    висота лінії :  1,3 ;
-    міжлітерний інтервал :  0,09 em ;
-    перетворення тексту : верхній регістр;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  600;
+    font-size: 12 пікселів;
+    висота лінії:  1,3;
+    letter-spacing:  0,09 em;
+    перетворення тексту: верхній регістр;
     background: #2196F3;
     cursor: pointer;
   }
 /* Заголовок */
 
 .header-link {
-    font-family: 'Roboto', sans-serif;
+    font-family:"Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -88,6 +89,7 @@ text-shadow:
 color: #FFFFFF;
 }
 .hero-btn{
+font-family: 'Roboto', sans-serif;
 cursor: pointer;
 font-size: 16px;
 letter-spacing: 0.06em;
@@ -140,11 +142,11 @@ letter-spacing: 0.03em;
 }
 
 .contacts-address {
-    font-style : нормальний;
+    font-style: нормальний;
   }
   
   .contacts-title {
-    колір :  var ( --secondary-text-color );
+    колір:  var ( --secondary-text-color );
   }
 .contacts-item{
     font-weight: 400;
