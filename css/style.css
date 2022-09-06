@@ -1,4 +1,4 @@
- .root {
+ .root{
     --primary-text-color: #303030;
     --secondary-text-color:  #fff;
     --tetriary-text-color:  #555;
@@ -14,7 +14,7 @@
   }
   
   /* Головний розділ перед заголовком */
-  .previous title {
+  .previous title{
     font-family:  "Roboto", sans-serif;
     font-weight:  500;
     font-size:  11 пікселів;
@@ -23,7 +23,7 @@
   }
   
   /* Назва основного розділу */
-  .name {
+  .name{
     font-family:  "Roboto", sans-serif;
     font-weight:  700;
     font-size:  42 px;
@@ -33,7 +33,7 @@
   }
   
   /* Стилі кнопок */
-  .btn {
+  .btn{
     font-family: 'Roboto', sans-serif;
     font-weight:  600;
     font-size: 12 пікселів;
@@ -75,7 +75,14 @@
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
   }  
- 
+.link-header{
+  color: #212121;
+  text-decoration: none;
+  }
+  .link-header:hover,.link:focus{
+    color: #2196F3;
+  }  
+  
   .header-contact{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -85,6 +92,7 @@
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
   }
+ 
   /* Розділ героя */
 
 .hero-title{
@@ -105,8 +113,15 @@ font-size: 16px;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 color:  var(--primary-text-color);
+background: #2196F3;
 }
-
+.link-hero{
+  color: #212121;
+  text-decoration: none;
+  }
+.link-hero:hover,.link:focus{
+  color: #FFFFFF;
+  }  
 .about-title, .comand-title{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -192,4 +207,11 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 
 }
+.link-footer{
+  color: #fff;
+}
+.link-footer:hover,.link:focus{
+  color: #2196F3;
+}  
+
   
