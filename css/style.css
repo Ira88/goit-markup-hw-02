@@ -87,7 +87,7 @@ color: #212121;
   }  
 .link-current{
   color: #212121;
-  
+  text-decoration: none;
   }
   .link-current:hover,.link:focus{
     color: #2196F3;
@@ -128,7 +128,7 @@ background: #2196F3;
 }
 .link-current-hero{
   color: #212121;
-
+text-decoration: none;
   }
 .link-current-hero:hover,.link:focus{
   color: #FFFFFF;
@@ -220,6 +220,7 @@ color: #FFFFFF;
 }
 .link-current footer{
   color: #FFFFFF;
+  text-decoration: none;
 }
 .link-current footer:hover,.link:focus{
   color: #2196F3;
