@@ -8,7 +8,7 @@
   }
   
   .тіло {
-    сімейство шрифтів :  "Монсеррат:wght@400;500;700;900 & display=swap", "stylesheet";
+    сімейство шрифтів :  "Монсеррат", sans-serif;
     font-weight :  400 ;
     колір фону :  # c4c0c0 ;
   }
@@ -24,7 +24,7 @@
   
   /* Назва основного розділу */
   .назва {
-    сімейство шрифтів :  "Roboto";
+    сімейство шрифтів :  "Roboto", sans-serif;
     вага шрифту :  700 ;
     розмір шрифту :  42 px ;
     висота лінії :  1,2 ;
@@ -50,21 +50,21 @@
     міжлітерний інтервал :  0,09 em ;
     перетворення тексту : верхній регістр;
     background: #2196F3;
+    cursor: pointer;
   }
 /* Заголовок */
 
 .header-link {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    
     color: var ( --secondary-text-color );
   }  
   .header-contact{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -81,13 +81,14 @@
     color: #212121;
 }
 .hero-title{
-   font-weight: 900;
+  font-weight: 900;
 font-size: 44px;
 border: 1px solid #000000;
 text-shadow: 
 color: #FFFFFF;
 }
 .hero-btn{
+cursor: pointer;
 font-size: 16px;
 letter-spacing: 0.06em;
 color: #FFFFFF;
@@ -132,7 +133,8 @@ color: #757575;
   
 /* Розділ footer */
 .footer-titel{
-    font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
 }
