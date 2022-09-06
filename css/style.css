@@ -85,11 +85,11 @@ color: #212121;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
   }  
-.link-header{
+.link-current{
   color: #212121;
   
   }
-  .link-header:hover,.link:focus{
+  .link-current:hover,.link:focus{
     color: #2196F3;
   }  
 
@@ -126,11 +126,11 @@ color: #FFFFFF;
 color:  var(--primary-text-color);
 background: #2196F3;
 }
-.link-hero{
+.link-current-hero{
   color: #212121;
 
   }
-.link-hero:hover,.link:focus{
+.link-current-hero:hover,.link:focus{
   color: #FFFFFF;
   }  
 .about-title, .comand-title{
@@ -218,10 +218,10 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 
 }
-.link-footer{
-  color: #fff;
+.link-current footer{
+  color: #FFFFFF;
 }
-.link-footer:hover,.link:focus{
+.link-current footer:hover,.link:focus{
   color: #2196F3;
 }  
 
