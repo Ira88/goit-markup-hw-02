@@ -1,45 +1,35 @@
- .корінь {
+ .root {
     --primary-text-color: #303030;
     --secondary-text-color:  #fff;
     --tetriary-text-color:  #555;
-    --primary-title-color:  rgba ( 157 ,  164 ,  189 ,  0,6 );
+    --primary-title-color:  rgba (157 ,  164 ,  189 ,  0,6);
     --description-text:  #9da4bd;
     --accent-color:  #ff6c00;
   }
   
-  .тіло {
-    сімейство шрифтів:  "Montserrat", sans-serif;
+  .header{
+    font-family:  "Montserrat", sans-serif;
     font-weight:  400;
-    колір фону:  #c4c0c0;
+    background color:  #c4c0c0;
   }
   
   /* Головний розділ перед заголовком */
-  .попередній заголовок {
+  .previous title {
+    font-family:  "Roboto", sans-serif;
     font-weight:  500;
-    розмір шрифту:  11 пікселів;
-    висота лінії:  1,4;
-    перетворення тексту: верхній регістр;
-    колір :  var ( --primary-text-color );
+    font-size:  11 пікселів;
+    line-height:  1,4;
+    color:  var (--primary-text-color);
   }
   
   /* Назва основного розділу */
-  .назва {
+  .name {
     font-family:  "Roboto", sans-serif;
     font-weight:  700;
     font-size:  42 px;
-    висота лінії:  1,2;
+    line-height:  1,2;
     letter-spacing:  0,05 em ;
-    колір:  var ( --primary-text-color );
-  }
-  
-  /* Список стилів */
-  .список {
-    стиль списку: немає;
-  }
-  
-  /* Стилі посилань */
-  .посилання {
-    text-decoration: немає;
+    color:  var (--primary-text-color);
   }
   
   /* Стилі кнопок */
@@ -47,11 +37,12 @@
     font-family: 'Roboto', sans-serif;
     font-weight:  600;
     font-size: 12 пікселів;
-    висота лінії:  1,3;
+    line-height:  1,3;
     letter-spacing:  0,09 em;
-    перетворення тексту: верхній регістр;
+    text-conversion: upper register;
     background: #2196F3;
     cursor: pointer;
+    color:  var (--primary-text-color);
   }
 /* Заголовок */
 
@@ -62,8 +53,9 @@
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: var ( --secondary-text-color );
+    color: var (--secondary-text-color);
   }  
+ 
   .header-contact{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -71,22 +63,21 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var ( --secondary-text-color );
+    color: var (--secondary-text-color);
   }
   /* Розділ героя */
 
-.hero , .about , .comand{
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
 .hero-title{
-  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
 font-size: 44px;
-border: 1px solid #000000;
-text-shadow: 
+line-height: 60px;
+letter-spacing: 0.06em;
 color: #FFFFFF;
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
 }
 .hero-btn{
 font-family: 'Roboto', sans-serif;
@@ -94,43 +85,62 @@ cursor: pointer;
 font-size: 16px;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+color:  var (--primary-text-color);
 }
-.about-title {
-    колір :  var ( --primary-text-color );
+
+.about-title, .comand-title{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+    color:  var (--primary-text-color);
   }
   .about-description{
-font-size: 14px;
-letter-spacing: 0.03em;
-color: #757575;
-  }
-  .about-item title{
-    font-size: 14px;
-letter-spacing: 0.03em;
-color: #212121;
-  }
-  .comand-item{
-    font-weight: 500;
-font-size: 16px;
-letter-spacing: 0.03em;
-color: #212121;
-  }
-  .comand-item-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 400;
-font-size: 16px;
-letter-spacing: 0.03em;
-color: #757575;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  .about-item title, .comand-item-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  .comand-item-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
   }
   .visually-hidden{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 700;
-font-size: 18px;
-letter-spacing: 0.06em;
-color: #212121;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: #212121;
   }
   .gallery-pre-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 400;
-font-size: 16px;
-letter-spacing: 0.03em;
-color: #757575;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
   }
   
 /* Розділ footer */
@@ -139,14 +149,21 @@ color: #757575;
   font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
+color: #2196F3;
 }
 
 .contacts-address {
-    font-style: нормальний;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
   }
   
   .contacts-title {
-    колір:  var ( --secondary-text-color );
+   color:  var (--secondary-text-color);
   }
 .contacts-item{
     font-weight: 400;
